@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login form</title>
+    </head>
+    <body>
+        <form action="" onsubmit="myFunction()">
+      <fieldset>
+        <label for="Name">Enter Your Name: <input type="text" name="first-name" required placeholder="your name" /></label>
+        <label for="Phone-Number">Enter Your Phone-Number: <input type="text" name="phone-number" required /></label>
+        <label for="email">Enter Your Email: <input type="email" name="email" placeholder="your email" required /></label>
+        <label for="sex">Sex: <input type="radio" name="gender" value="Male">Male</label>
+        <label for="sex"><input type="radio" name="gender" value="female" required>Female</label>
+        <label for="password">Password: <input type="password" name="password" required /></label>
+      </fieldset>
+      <input type="submit" value="submit">
+      </form>
+      <script>
+        function myFunction() {
+          alert("Sucess");
+        }
+        </script>
+    </body>
+</html>
